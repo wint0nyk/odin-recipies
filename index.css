@@ -1,5 +1,19 @@
+/* -------------------------------------------Cookie menu starts here--------------------------------------- */
+
 body {
     background-color: beige;
+}
+
+.cookiecontainer {
+    width: 413px;
+    height: 616px;
+    background-color: hsla(140, 25%, 35%, 0.7);
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    display: block;
+    margin: 0 auto;
 }
 
 #container1 {
@@ -10,6 +24,7 @@ body {
     border-color: black;
     display: block;
     margin: 0 auto;
+    margin-top: 5px;
     width: 400px;
     height: 600px;
     color: beige;
@@ -54,6 +69,8 @@ body {
     background-color: black;
     transition-duration: 0.4s;
     cursor: pointer;
+    text-decoration: underline;
+    text-decoration-style: double;
     
 }
 
@@ -64,4 +81,20 @@ body {
 
 .recipiebutton1:hover {
     background-color: hsla(240, 50%, 70%, 0.7);
+}
+
+/* ----------------------------------------------Cookie menu ends here----------------------------------------------*/
+
+/* ---------------------------------------------Chicken menu starts here--------------------------------------------*/
+
+.chickencontainer {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 413px;
+    height: 616px;
+    background-color: hsla(140, 25%, 35%, 0.7);
+    border: 2px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
 }
