@@ -4,7 +4,13 @@ body {
     background-color: beige;
 }
 
-.cookiecontainer {
+.maincontainer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container.cookiecontainer {
     width: 413px;
     height: 616px;
     background-color: hsla(140, 25%, 35%, 0.7);
@@ -13,7 +19,6 @@ body {
     border-style: solid;
     border-color: black;
     display: block;
-    margin: 0 auto;
 }
 
 #container1 {
@@ -87,9 +92,7 @@ body {
 
 /* ---------------------------------------------Chicken menu starts here--------------------------------------------*/
 
-.chickencontainer {
-    margin: 0 auto;
-    margin-top: 10px;
+.container.chickencontainer {
     width: 413px;
     height: 616px;
     background-color: hsla(140, 25%, 35%, 0.7);
